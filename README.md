@@ -30,6 +30,6 @@ Feel free to reach out to me if you have any questions, collaboration opportunit
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=abugeek&show_icons=true&locale=en&layout=compact" alt="abugeek" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=abugeek&show_icons=true&locale=en" alt="abugeek" /></p>
+<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=abugeek&show_icons=true&locale=en" alt="abugeek" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=abugeek&" alt="abugeek" /></p>
