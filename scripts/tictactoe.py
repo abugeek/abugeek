@@ -10,7 +10,7 @@ EMPTY = ' '
 X = 'X'
 O = 'O'
 
-def get_image_url(val):
+def get_image_url(val: str) -> str:
     if val == X:
         return "https://placehold.co/50x50/0D1117/53b14f?text=X"
     elif val == O:
@@ -18,17 +18,18 @@ def get_image_url(val):
     else:
         return "https://placehold.co/50x50/0D1117/FFFFFF?text=+"
 
-def load_board():
+def load_board() -> list[list[str]]:
     if os.path.exists(BOARD_FILE):
         with open(BOARD_FILE, 'r') as f:
-            return json.load(f)
+            board_data: list[list[str]] = json.load(f)
+            return board_data
     return [[EMPTY, EMPTY, EMPTY] for _ in range(3)]
 
-def save_board(board):
+def save_board(board: list[list[str]]) -> None:
     with open(BOARD_FILE, 'w') as f:
         json.dump(board, f)
 
-def check_winner(board):
+def check_winner(board: list[list[str]]) -> str | None:
     # Rows and cols
     for i in range(3):
         if board[i][0] == board[i][1] == board[i][2] and board[i][0] != EMPTY:
@@ -42,24 +43,24 @@ def check_winner(board):
         return board[0][2]
     return None
 
-def is_full(board):
+def is_full(board: list[list[str]]) -> bool:
     return all(cell != EMPTY for row in board for cell in row)
 
-def make_computer_move(board):
+def make_computer_move(board: list[list[str]]) -> None:
     empty_cells = [(r, c) for r in range(3) for c in range(3) if board[r][c] == EMPTY]
     if empty_cells:
         r, c = random.choice(empty_cells)
         board[r][c] = O
 
-def generate_readme_board(board, status_msg):
-    lines = []
+def generate_readme_board(board: list[list[str]], status_msg: str) -> str:
+    lines: list[str] = []
     lines.append('<div align="center">')
     lines.append(f'  <p><strong>{status_msg}</strong></p>')
     lines.append('  <table>')
     for r in range(3):
         lines.append('    <tr>')
         for c in range(3):
-            cell = board[r][c]
+            cell = board[r][c]  # type: ignore
             url = get_image_url(cell)
             if cell == EMPTY and "Wins" not in status_msg and "Draw" not in status_msg:
                 # Issue link
@@ -74,9 +75,9 @@ def generate_readme_board(board, status_msg):
     lines.append('</div>')
     return '\n'.join(lines)
 
-def update_readme(new_board_html):
+def update_readme(new_board_html: str) -> None:
     with open(README_FILE, 'r') as f:
-        content = f.read()
+        content: str = f.read()
     
     start_marker = "<!-- tictactoe_start -->"
     end_marker = "<!-- tictactoe_end -->"
