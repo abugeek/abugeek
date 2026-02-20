@@ -86,8 +86,8 @@ def update_readme(new_board_html: str) -> None:
     end_idx = content.find(end_marker)
     
     if start_idx != -1 and end_idx != -1:
-        before = content[:start_idx + len(start_marker)]
-        after = content[end_idx:]
+        before = content[:start_idx + len(start_marker)]  # type: ignore
+        after = content[end_idx:]  # type: ignore
         new_content = before + "\n" + new_board_html + "\n" + after
         with open(README_FILE, 'w') as f:
             f.write(new_content)
