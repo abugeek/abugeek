@@ -77,26 +77,28 @@
 
 ### 🎮 Play Tic-Tac-Toe (Sandbox)
 
+<!-- tictactoe_start -->
 <div align="center">
-  <p>Click on a cell to make your move!</p>
+  <p><strong>Your turn! You are X.</strong></p>
   <table>
     <tr>
-      <td><a href="#ttt-0-0"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
-      <td><a href="#ttt-0-1"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
-      <td><a href="#ttt-0-2"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="https://github.com/abugeek/abugeek/issues/new?title=ttt%7C0%7C0&body=Just+click+Submit+new+issue+to+play+your+move!"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="https://github.com/abugeek/abugeek/issues/new?title=ttt%7C0%7C1&body=Just+click+Submit+new+issue+to+play+your+move!"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="https://github.com/abugeek/abugeek/issues/new?title=ttt%7C0%7C2&body=Just+click+Submit+new+issue+to+play+your+move!"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
     </tr>
     <tr>
-      <td><a href="#ttt-1-0"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
-      <td><a href="#ttt-1-1"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
-      <td><a href="#ttt-1-2"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="https://github.com/abugeek/abugeek/issues/new?title=ttt%7C1%7C0&body=Just+click+Submit+new+issue+to+play+your+move!"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="https://github.com/abugeek/abugeek/issues/new?title=ttt%7C1%7C1&body=Just+click+Submit+new+issue+to+play+your+move!"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="https://github.com/abugeek/abugeek/issues/new?title=ttt%7C1%7C2&body=Just+click+Submit+new+issue+to+play+your+move!"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
     </tr>
     <tr>
-      <td><a href="#ttt-2-0"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
-      <td><a href="#ttt-2-1"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
-      <td><a href="#ttt-2-2"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="https://github.com/abugeek/abugeek/issues/new?title=ttt%7C2%7C0&body=Just+click+Submit+new+issue+to+play+your+move!"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="https://github.com/abugeek/abugeek/issues/new?title=ttt%7C2%7C1&body=Just+click+Submit+new+issue+to+play+your+move!"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="https://github.com/abugeek/abugeek/issues/new?title=ttt%7C2%7C2&body=Just+click+Submit+new+issue+to+play+your+move!"><img src="https://placehold.co/50x50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
     </tr>
   </table>
 </div>
+<!-- tictactoe_end -->
 
 ---
 
