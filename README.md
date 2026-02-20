@@ -37,16 +37,11 @@
 ### 📊 GitHub Stats & Activity
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=abugeek&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="abugeek trophies" />
-</div>
-<br/>
-
-<div align="center">
   <a href="https://github.com/abugeek">
-    <img src="https://github-readme-stats.vercel.app/api?username=abugeek&show_icons=true&locale=en&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="stats graph" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=abugeek&show_icons=true&locale=en&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="stats graph" />
   </a>
   <a href="https://github.com/abugeek">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=abugeek&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="top languages" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=abugeek&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="top languages" />
   </a>
 </div>
 <br/>
