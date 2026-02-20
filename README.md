@@ -75,6 +75,87 @@
 
 ---
 
+### 🎮 Play Tic-Tac-Toe (Sandbox)
+
+<div align="center">
+  <p>Click on a cell to make your move!</p>
+  <table>
+    <tr>
+      <td><a href="#ttt-0-0"><img src="https://via.placeholder.com/50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="#ttt-0-1"><img src="https://via.placeholder.com/50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="#ttt-0-2"><img src="https://via.placeholder.com/50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+    </tr>
+    <tr>
+      <td><a href="#ttt-1-0"><img src="https://via.placeholder.com/50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="#ttt-1-1"><img src="https://via.placeholder.com/50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="#ttt-1-2"><img src="https://via.placeholder.com/50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+    </tr>
+    <tr>
+      <td><a href="#ttt-2-0"><img src="https://via.placeholder.com/50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="#ttt-2-1"><img src="https://via.placeholder.com/50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+      <td><a href="#ttt-2-2"><img src="https://via.placeholder.com/50/0D1117/FFFFFF?text=+" alt="empty"></a></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+### 🎧 Live Status
+
+<div align="center">
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=abugeek&redirect=true">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=abugeek&cover_image=true&theme=radical&show_offline=true&background_color=0D1117&interchange=true&bar_color=53b14f&bar_color_cover=false" height="150" alt="Spotify Now Playing" />
+  </a>
+  <a href="https://wakatime.com/@abugeek">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/wakatime?username=abugeek&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="WakaTime Metrics" />
+  </a>
+</div>
+
+---
+
+### 🖋️ Live Guestbook
+
+<div align="center">
+  <a href="https://github.com/abugeek/abugeek/issues/new?title=guestbook%3A+Sign+my+guestbook&body=Please+leave+a+nice+message!"><img src="https://img.shields.io/badge/-Sign%20My%20Guestbook-0E75B6?style=for-the-badge&logo=github" alt="Sign Guestbook" /></a>
+  <br/><br/>
+  <!-- GUESTBOOK_START -->
+  <em>No entries yet! Be the first to sign.</em>
+  <!-- GUESTBOOK_END -->
+</div>
+
+---
+
+### 🤫 Terminal Protocol (Easter Egg)
+
+<details>
+  <summary><code>Click to initialize secure terminal session...</code></summary>
+  <br/>
+
+```bash
+$ neofetch
+       /\        OS: macOS 
+      /  \       Host: MacBook Pro
+     /____\      Uptime: 42 days, 13 hours
+    /      \     Packages: 1337 (brew)
+   /        \    Shell: zsh 5.8
+                 Theme: radical
+                 
+$ cat skills.json
+{
+  "mobile": ["Flutter", "Dart"],
+  "backend": ["Node.js", "Firebase", "MySQL"],
+  "status": "Building amazing things ✨"
+}
+
+$ ./initiate_coffee.sh
+[██████████████████████████████████] 100%
+Brewing complete. Have a great day!
+```
+
+</details>
+
+---
+
 ### 🤝 Connect with Me & Support
 
 <p align="center">
